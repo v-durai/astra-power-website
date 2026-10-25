@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Astra Power Technical Services | HV/EHV Substation Testing & Commissioning — Abu Dhabi</title>
+<meta name="description" content="Astra Power Technical Services L.L.C - S.P.C is an Abu Dhabi-licensed provider of high-voltage and extra-high-voltage substation testing, commissioning, diagnostics, and field supervision across the UAE and GCC.">
+<link rel="icon" type="image/svg+xml" href="assets/logo.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- Icon sprite -->
+<svg style="display:none" aria-hidden="true">
+  <symbol id="icon-bolt" viewBox="0 0 24 24"><path d="M13 2 4 14h6l-1 8 9-12h-6z" fill="currentColor"/></symbol>
+  <symbol id="icon-pulse" viewBox="0 0 24 24"><polyline points="2,12 7,12 10,4 14,20 17,12 22,12" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="icon-shield" viewBox="0 0 24 24"><path d="M12 3 20 6v5c0 5.5-3.8 9.5-8 11-4.2-1.5-8-5.5-8-11V6z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><polyline points="9,12 11.3,14.3 15.3,9.6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="icon-clipboard" viewBox="0 0 24 24"><rect x="5" y="4" width="14" height="17" rx="2" fill="none" stroke="currentColor" stroke-width="1.7"/><rect x="9" y="2" width="6" height="4" rx="1" fill="currentColor"/><line x1="8" y1="11" x2="16" y2="11" stroke="currentColor" stroke-width="1.5"/><line x1="8" y1="15" x2="16" y2="15" stroke="currentColor" stroke-width="1.5"/><line x1="8" y1="19" x2="13" y2="19" stroke="currentColor" stroke-width="1.5"/></symbol>
+  <symbol id="icon-factory" viewBox="0 0 24 24"><path d="M3 21V10l5 3V10l5 3V7l7 4v10z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><line x1="3" y1="21" x2="21" y2="21" stroke="currentColor" stroke-width="1.6"/></symbol>
+  <symbol id="icon-network" viewBox="0 0 24 24"><circle cx="6" cy="6" r="2.2" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="18" cy="6" r="2.2" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="18" r="2.2" fill="none" stroke="currentColor" stroke-width="1.6"/><line x1="7.8" y1="7.2" x2="11" y2="16.2" stroke="currentColor" stroke-width="1.4"/><line x1="16.2" y1="7.2" x2="13" y2="16.2" stroke="currentColor" stroke-width="1.4"/><line x1="8.2" y1="6" x2="15.8" y2="6" stroke="currentColor" stroke-width="1.4"/></symbol>
+  <symbol id="icon-gear" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3.2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M12 3v2.4M12 18.6V21M21 12h-2.4M5.4 12H3M18.4 5.6l-1.7 1.7M7.3 16.7l-1.7 1.7M18.4 18.4l-1.7-1.7M7.3 7.3 5.6 5.6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></symbol>
+  <symbol id="icon-droplet" viewBox="0 0 24 24"><path d="M12 2s7 8.5 7 13a7 7 0 1 1-14 0c0-4.5 7-13 7-13z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></symbol>
+  <symbol id="icon-plant" viewBox="0 0 24 24"><path d="M9 2v6M15 2v6M7 8h10v4a5 5 0 0 1-5 5 5 5 0 0 1-5-5V8z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><line x1="12" y1="17" x2="12" y2="22" stroke="currentColor" stroke-width="1.6"/></symbol>
+  <symbol id="icon-signal" viewBox="0 0 24 24"><path d="M4 16a8 8 0 0 1 16 0" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M7.5 16a4.5 4.5 0 0 1 9 0" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="16" r="1.4" fill="currentColor"/></symbol>
+  <symbol id="icon-phone" viewBox="0 0 24 24"><path d="M6.5 3h3l1.5 4-2 2a12 12 0 0 0 6 6l2-2 4 1.5v3a2 2 0 0 1-2 2A17 17 0 0 1 4.5 5a2 2 0 0 1 2-2z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></symbol>
+  <symbol id="icon-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="1.6"/><polyline points="3.5,6 12,13 20.5,6" fill="none" stroke="currentColor" stroke-width="1.6"/></symbol>
+  <symbol id="icon-pin" viewBox="0 0 24 24"><path d="M12 21s7-6.5 7-11.5A7 7 0 1 0 5 9.5C5 14.5 12 21 12 21z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><circle cx="12" cy="9.5" r="2.4" fill="none" stroke="currentColor" stroke-width="1.6"/></symbol>
+</svg>
+
+<header class="site-header">
+  <nav class="nav container">
+    <a href="#top" class="brand">
+      <img src="assets/logo.svg" alt="Astra Power logo">
+      <span class="brand-text">
+        <span class="brand-name" style="display:block;">ASTRA POWER</span>
+        <span class="brand-sub">Technical Services</span>
+      </span>
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#overview">Overview</a></li>
+      <li><a href="#scope">Licensed Scope</a></li>
+      <li><a href="#competencies">Expertise</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#leadership">Leadership</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-actions">
+      <a href="#contact" class="btn btn-outline-dark">Get in Touch</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+</header>
+
+<main id="top">
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container hero-inner">
+      <div>
+        <span class="hero-badge">Abu Dhabi, UAE · DED Licensed</span>
+        <h1>Precision Testing &amp; Commissioning for the Region's <span>Highest-Voltage</span> Grids</h1>
+        <p class="lead">Astra Power Technical Services delivers specialized testing, commissioning, diagnostics, and field supervision for HV and EHV substations — led by OEM-certified engineers with two decades of GCC power and oil &amp; gas experience.</p>
+        <div class="hero-actions">
+          <a href="#competencies" class="btn btn-primary">View Our Capabilities</a>
+          <a href="#contact" class="btn btn-outline">Request a Consultation</a>
+        </div>
+      </div>
+      <div class="hero-art">
+        <div class="badge-ring">
+          <img src="assets/logo.svg" alt="" class="badge-core">
+        </div>
+      </div>
+    </div>
+    <div class="container stat-strip">
+      <div><div class="stat-num">20+</div><div class="stat-label">Years Leadership Experience</div></div>
+      <div><div class="stat-num">400kV</div><div class="stat-label">Highest Voltage Class Delivered</div></div>
+      <div><div class="stat-num">4</div><div class="stat-label">National Utilities &amp; NOCs Served</div></div>
+      <div><div class="stat-num">6</div><div class="stat-label">DED-Licensed Activities</div></div>
+    </div>
+  </section>
+
+  <!-- Overview -->
+  <section id="overview">
+    <div class="container overview-grid">
+      <div>
+        <span class="eyebrow">Corporate Overview</span>
+        <h2>Tier-One Engineering Quality, Built for Fast Mobilization</h2>
+        <p>Astra Power Technical Services L.L.C - S.P.C is an Abu Dhabi-licensed technical services provider delivering specialized testing, commissioning, diagnostics, and field supervision for high-voltage (HV) and extra-high-voltage (EHV) substation installations.</p>
+        <p>Founded and led by OEM-certified engineering leadership with over two decades of experience in the GCC power and oil &amp; gas sectors, Astra Power delivers tier-one engineering quality, safety governance, and fast mobilization across the UAE.</p>
+      </div>
+      <div class="license-card">
+        <h3>Corporate Credentials</h3>
+        <ul class="license-list">
+          <li><span class="label">Commercial Licence No.</span><span class="value">CN-6765938</span></li>
+          <li><span class="label">ADCCI Membership No.</span><span class="value">8800157486</span></li>
+          <li><span class="label">Unified Reg. No.</span><span class="value">101-2026-200126293</span></li>
+          <li><span class="label">ICP Establishment No.</span><span class="value">960314</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Licensed Scope -->
+  <section id="scope" class="section-alt">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Licensed Scope of Activities</span>
+        <h2>Abu Dhabi DED-Licensed Operations</h2>
+        <p>Six licensed activity codes covering the full lifecycle of power and utility infrastructure, onshore and offshore.</p>
+      </div>
+      <div class="card-grid">
+        <div class="card">
+          <div class="icon"><svg width="22" height="22"><use href="#icon-factory"></use></svg></div>
+          <h3>Generators &amp; Transformers</h3>
+          <p>Installation and maintenance of electrical generators and transformers.</p>
+          <span class="code-tag">Activity Code 4321015</span>
+        </div>
+        <div class="card">
+          <div class="icon"><svg width="22" height="22"><use href="#icon-network"></use></svg></div>
+          <h3>Electricity Plants &amp; Networks</h3>
+          <p>Operation and maintenance of electricity generation plants and distribution networks.</p>
+          <span class="code-tag">Activity Code 3510005</span>
+        </div>
+        <div class="card">
+          <div class="icon"><svg width="22" height="22"><use href="#icon-gear"></use></svg></div>
+          <h3>Equipment, Instrumentation &amp; Control</h3>
+          <p>Installation and maintenance of control and instrumentation equipment.</p>
+          <span class="code-tag">Activity Code 3320006</span>
+        </div>
+        <div class="card">
+          <div class="icon"><svg width="22" height="22"><use href="#icon-droplet"></use></svg></div>
+          <h3>Oil &amp; Gas Field Services</h3>
+          <p>Onshore and offshore oil and gas fields and facilities services.</p>
+          <span class="code-tag">Activity Code 0910018</span>
+        </div>
+        <div class="card">
+          <div class="icon"><svg width="22" height="22"><use href="#icon-plant"></use></svg></div>
+          <h3>Power Generation Plants</h3>
+          <p>Maintenance services for power generation plants.</p>
+          <span class="code-tag">Activity Code 4329905</span>
+        </div>
+        <div class="card">
+          <div class="icon"><svg width="22" height="22"><use href="#icon-signal"></use></svg></div>
+          <h3>Fibre Optic Networks</h3>
+          <p>Installation and maintenance of fibre optic networks.</p>
+          <span class="code-tag">Activity Code 4321005</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Core Competencies -->
+  <section id="competencies">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Specialized Core Competencies</span>
+        <h2>Deep Expertise Across the Substation Lifecycle</h2>
+        <p>From pre-commissioning through energization and long-term protection governance.</p>
+      </div>
+      <div class="card-grid two">
+        <div class="card">
+          <div class="icon"><svg width="22" height="22"><use href="#icon-bolt"></use></svg></div>
+          <h3>Gas-Insulated Switchgear (GIS)</h3>
+          <p>Complete pre-commissioning, testing, maintenance, and energization handovers for 132kV, 220kV, and 400kV installations (Siemens 8DN8, 8DN9, 8DQ1).</p>
+        </div>
+        <div class="card">
+          <div class="icon"><svg width="22" height="22"><use href="#icon-pulse"></use></svg></div>
+          <h3>Advanced Diagnostics &amp; HV Testing</h3>
+          <p>High-Voltage (HV) AC withstand testing, High-Frequency / UHF Partial Discharge (PD) analysis, Point-on-Wave controller (PSD02) testing, and SF6 gas handling.</p>
+        </div>
+        <div class="card">
+          <div class="icon"><svg width="22" height="22"><use href="#icon-shield"></use></svg></div>
+          <h3>Protection Schemes &amp; Substation Automation</h3>
+          <p>Scheme verification, busbar stability, restricted earth fault (REF), and protection relay calibration (Siemens, Reyrolle, Schneider/Areva, GE).</p>
+        </div>
+        <div class="card">
+          <div class="icon"><svg width="22" height="22"><use href="#icon-clipboard"></use></svg></div>
+          <h3>Site Governance &amp; Technical Advisory</h3>
+          <p>Production of Method Statements (MOS), Site-Specific Risk Assessments, Inspection &amp; Test Plans (ITP), third-party witness representation, and root-cause failure analysis.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section-alt">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Key Reference Projects</span>
+        <h2>Trusted on the Region's Flagship Grid Infrastructure</h2>
+        <p>Projects led by our Principal Specialist across national utilities and oil &amp; gas majors.</p>
+      </div>
+      <div class="project-grid">
+        <div class="project-card">
+          <div class="client"><span class="dot"></span>TRANSCO — Abu Dhabi</div>
+          <div class="tag">400/132kV Substations</div>
+          <ul>
+            <li>Shamkha Substation</li>
+            <li>Mahavi Substation</li>
+            <li>Shuweihat Substation</li>
+            <li>Al Dhafra Substation</li>
+          </ul>
+        </div>
+        <div class="project-card">
+          <div class="client"><span class="dot"></span>ADNOC — Oil &amp; Gas</div>
+          <div class="tag">220kV Facilities</div>
+          <ul>
+            <li>Shah Gas Development</li>
+            <li>Asab</li>
+            <li>Buhasa</li>
+            <li>Bab &amp; Borouge 4</li>
+          </ul>
+        </div>
+        <div class="project-card">
+          <div class="client"><span class="dot"></span>DEWA — Dubai</div>
+          <div class="tag">400/132kV Substations</div>
+          <ul>
+            <li>Hassyan Coal</li>
+            <li>Mamzar</li>
+            <li>Warsan &amp; Janub</li>
+            <li>Car Complex</li>
+          </ul>
+        </div>
+        <div class="project-card">
+          <div class="client"><span class="dot"></span>Regional Grid</div>
+          <div class="tag">Oman · Bahrain · Saudi Arabia</div>
+          <ul>
+            <li>400kV Manah (OETC, Oman)</li>
+            <li>400kV Riffa &amp; Hidd (Bahrain)</li>
+            <li>380kV Hunayan (Saudi Arabia)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Leadership -->
+  <section id="leadership">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Principal Leadership &amp; Technical Lead</span>
+        <h2>Leadership Forged on the Region's Biggest Grids</h2>
+      </div>
+      <div class="leader-wrap">
+        <div class="leader-avatar">SJ</div>
+        <div class="leader-info">
+          <h3>Salahuddin Jamaluddin</h3>
+          <p class="role">Managing Director &amp; Senior Lead Commissioning Specialist</p>
+          <p>Certified Siemens Energy GIS Commissioning Specialist with deep expertise in HV testing, partial discharge measurement, and point-on-wave (PSD/POW) controls.</p>
+          <ul>
+            <li>Certified Siemens Energy GIS Commissioning Specialist (HV Testing, PD Measurement, PSD/POW)</li>
+            <li>17 Years with Siemens Energy LLC (UAE)</li>
+            <li>4 Years with ETA-PCS Switchgear</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section-alt">
+    <div class="container contact-wrap">
+      <div>
+        <span class="eyebrow">Contact</span>
+        <h2>Let's Discuss Your Next Substation Project</h2>
+        <p>Based in Abu Dhabi with fast mobilization across the UAE and GCC.</p>
+
+        <div class="contact-item">
+          <div class="icon"><svg width="20" height="20"><use href="#icon-phone"></use></svg></div>
+          <div>
+            <h4>Phone</h4>
+            <a href="tel:+971582801982">+971 58 280 1982</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><svg width="20" height="20"><use href="#icon-mail"></use></svg></div>
+          <div>
+            <h4>Email</h4>
+            <a href="mailto:info@astra-power.net">info@astra-power.net</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><svg width="20" height="20"><use href="#icon-pin"></use></svg></div>
+          <div>
+            <h4>Head Office</h4>
+            <p>Abu Dhabi, United Arab Emirates</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-card">
+        <h3>Ready to mobilize?</h3>
+        <p>Whether it's GIS commissioning, HV diagnostics, or protection scheme verification — our team is ready to scope your project.</p>
+        <a href="tel:+971582801982" class="btn btn-primary">Call +971 58 280 1982</a>
+        <a href="mailto:info@astra-power.net" class="btn btn-outline" style="width:100%; justify-content:center; margin-top:12px;">Email info@astra-power.net</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">
+          <img src="assets/logo.svg" alt="Astra Power logo">
+          <span>ASTRA POWER TECHNICAL SERVICES</span>
+        </div>
+        <p>HV/EHV substation testing, commissioning, diagnostics, and field supervision — licensed in Abu Dhabi, serving the UAE and GCC.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#overview">Corporate Overview</a></li>
+          <li><a href="#scope">Licensed Scope</a></li>
+          <li><a href="#competencies">Core Competencies</a></li>
+          <li><a href="#projects">Reference Projects</a></li>
+          <li><a href="#leadership">Leadership</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="tel:+971582801982">+971 58 280 1982</a></li>
+          <li><a href="mailto:info@astra-power.net">info@astra-power.net</a></li>
+          <li>Abu Dhabi, UAE</li>
+          <li>Licence No. CN-6765938</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Astra Power Technical Services L.L.C - S.P.C. All rights reserved.</span>
+      <span>Unified Reg. No. 101-2026-200126293</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

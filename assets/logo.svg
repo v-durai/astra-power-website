@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img" aria-labelledby="astraLogoTitle">
+  <title id="astraLogoTitle">Astra Power Technical Services logo</title>
+  <circle cx="60" cy="60" r="58" fill="#14314D"/>
+  <circle cx="60" cy="60" r="58" fill="none" stroke="#3E7CB1" stroke-width="1.5" opacity="0.6"/>
+  <path fill="#FFFFFF" d="M60,14 67.65,41.52 92.53,27.47 78.48,52.35 106,60 78.48,67.65 92.53,92.53 67.65,78.48 60,106 52.35,78.48 27.47,92.53 41.52,67.65 14,60 41.52,52.35 27.47,27.47 52.35,41.52 Z"/>
+  <circle cx="60" cy="60" r="9" fill="#3E7CB1"/>
+</svg>
